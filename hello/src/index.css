@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.form-add{
+  width:300px;
+  margin:0 auto;
+  padding:20px;
+  padding-right: 40px;
+  border:2px solid black;
+  border-radius: 6px;
+  background-color:rgb(181, 238, 236);
+}
+.form-add label{
+  display:block;
+  font-weight: 16px;
+  margin-bottom: 16px;
+}
+.form-add input{
+  width:100%;
+  padding:10px;
+  margin-bottom:15px;
+  border:3px solid rgb(246, 210, 216);
+  border-radius: 5px;
+}
+.form-add button{
+  width:70%;
+  display:block;
+  border:1px solid transparent;
+  background-color:rgb(246, 210, 216);
+  color: black;
+  padding:10px;
+  margin:auto
+}
+.form-add button:hover{
+  background-color: blueviolet;
+}
+.fromof a{
+  color:black
+}
+.fromof{
+  border:1px solid black;
+  width:300px;
+  margin-left:5%;
+ 
+}
+.fromof h3{
+  text-align: center;
+}
+.abcd{
+  display:grid;
+  grid-template-columns:repeat(3,500px);
+  margin-left :5%;
+  row-gap:5%
+}

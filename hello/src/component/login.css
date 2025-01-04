@@ -1,0 +1,141 @@
+.login-form{
+  border:2px solid black;
+  height:520px;
+  width:500px;
+  margin:0 auto;
+  margin-top:8%;
+  margin-left: 35%;
+}
+.login-form p{
+ text-align: center;
+}
+.login-form h1{
+  font-size: 50px;
+  text-align: center;
+  text-decoration: double;
+  background: #01d7bd;
+          -webkit-text-fill-color: transparent;
+          -webkit-background-clip: text;
+}
+.login-form .login1{
+ margin-left:1%
+}
+.login1 label{
+  display: block;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: left;
+  padding-left: 25px;
+}
+.login1 input{
+  padding:8px;
+  width:85%;
+  margin:1%;
+  border-radius:5px;
+  margin-left: 25px;
+}
+.login1 .S{
+  padding:2%;
+  width:89%;
+  font-size: 18px;
+  background-color: black;
+  border: transparent;
+  color: #01d7bd ;
+  margin-left: 25px;
+}
+.login1 a{
+  color:blue;
+  position:relative;
+  bottom:10px;
+  
+}
+.login1 .S:hover{
+  background-color: #01d7bd;
+  color: black;
+}
+.login1 table{
+  width: 120%;
+  margin-left: -30px;
+  
+}
+
+
+
+
+.login1 button {
+  
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: #4FD1C5;
+  background: #313133;
+/* background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);*/
+  border: none;
+  border-radius: 10px;
+  /*box-shadow: 12px 12px 24px rgba(79,209,197,.64);*/
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 10px;
+  }
+
+  .login1 .X::before {
+  content: '';
+  border-radius: 5%;
+  min-width: calc(130px + 12px);
+  min-height: calc(50px + 12px);
+
+  box-shadow: 0 0 30px rgba(0,255,203,.64);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all .3s ease-in-out 0s;
+}
+
+.login1.X:hover,.login1 .X:focus {
+  color: black;
+  /*color: #313133;*/
+  transform: translateY(-6px);
+}
+
+.login1.X:hover::before, .login1.X:focus::before {
+  opacity: 1;
+}
+
+.login1.X::after {
+  content: '';
+  width: 10px; height: 10px;
+  border-radius: 5%;
+  /*border: 6px solid #00FFCB;*/
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*animation: ring 1.3s infinite;*/
+}
+
+/*.X:hover::after, .X:focus::after {
+  animation: none;
+  display: none;
+}
+
+@keyframes ring {
+  0% {
+    width: 5px;
+    height: 5px;
+    opacity: 1;
+  }
+  
+  100% {
+    width: 180px;
+    height: 60px;
+    opacity: 0;
+  }
+}*/

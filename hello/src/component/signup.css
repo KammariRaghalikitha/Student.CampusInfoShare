@@ -1,0 +1,143 @@
+.signup-form{
+  width:500px;
+  margin:0 auto;
+  border:3px solid #01d7bd;
+  border-radius: 25px;
+  padding:10px;
+  padding-right:25px;
+  margin-top:5%;
+  margin-left: 37%;
+}
+.signup-form h1{
+  font-size: 30px;
+  text-align: center;
+}
+
+.signup-form label{
+  display:block;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom:5px;
+  text-align:left;
+  padding-left: 31px;
+  margin-top:2%;
+}
+.signup-form input{
+  width:90%;
+  height: 30px;
+  border:2px soild #000322;
+  border-radius:5px;
+  margin-left: 27px;
+  padding:5px;
+}
+/*.signup-form button{
+  background-color: #000322;
+  border: transparent;
+  color:white
+}
+.signup-form button:hover{
+  background-color: #01d7bd;
+  color:black
+}*/
+.signup-form .K{
+  border-radius: 5px;
+  padding:10px;
+  width: 50%;
+  
+
+}
+.signup-form .X{
+  border-radius: 5px;
+  padding:10px;
+  width: 50%;
+  
+ 
+  
+  
+}
+.signup-form table{
+  width: 100%;
+}
+
+.signup-form p{
+  color:red;
+  font-size:12px;
+  text-align: center;
+}
+.signup-form button {
+  
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: #4FD1C5;
+  background: #313133;
+/* background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);*/
+  border: none;
+  border-radius: 1000px;
+  /*box-shadow: 12px 12px 24px rgba(79,209,197,.64);*/
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 10px;
+  }
+
+  .signup-form button::before {
+content: '';
+  border-radius: 10%;
+  min-width: calc(130px + 12px);
+  min-height: calc(50px + 12px);
+ /* border: 3px solid #01d7bd;
+  box-shadow: 0 0 30px rgba(0,255,203,.64);*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all .3s ease-in-out 0s;
+}
+
+.signup-form button:hover, .signup-form button:focus {
+  color: #00FFCB;
+  /*color: #313133;*/
+  transform: translateY(-6px);
+}
+
+.signup-form button:hover::before,.signup-form  button:focus::before {
+  opacity: 1;
+}
+
+/*button::after {
+  content: '';
+  width: 10px; height: 10px;
+  border-radius: 10%;
+  border: 6px solid #00FFCB;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ /* animation: ring 1.3s infinite;*/
+
+
+/*button:hover::after, button:focus::after {
+  animation: none;
+  display: none;
+}
+
+@keyframes ring {
+  0% {
+    width: 5px;
+    height: 5px;
+    opacity: 1;
+  }
+  
+  100% {
+    width: 180px;
+    height: 60px;
+    opacity: 0;
+  }
+}*/

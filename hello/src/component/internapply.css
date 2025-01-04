@@ -1,0 +1,28 @@
+.fromof  h3{
+    font-size: 15px;
+    text-align: left;
+    padding: 10px;
+    color: #000322;
+}
+.fromof{
+    background-color: #4FD1C5;
+    border: 1px solid #4FD1C5;
+    border-radius: 15px ;
+    
+}
+.intern h1{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.project h1{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.event h1{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.job h1{
+    text-align: center;
+    margin-bottom: 5%;
+}
